@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+    
+#root{
+    width: 100vw;
+    /* height: 1500px; */
+    background-color: rgb(228, 224, 222);
+}
+
+.title{
+    text-align: left;
+    font-variant: small-caps;
+    font-size: xx-large;
+}
+.absolute{
+    position: relative;
+    margin: 0;
+
+}
+.sticky{
+    position: sticky;
+    top:0;
+    margin: 0;
+
+}
+.icono-rosa-viento{
+    /* Cambiamos el color del ícono https://codepen.io/sosuke/pen/Pjoqqp */
+    /* filter: invert(8%) sepia(72%) saturate(6586%) hue-rotate(238deg) brightness(94%) contrast(118%);  */
+    filter: invert(57%) sepia(96%) saturate(1284%) hue-rotate(359deg) brightness(101%) contrast(106%);
+}
+.icono-flecha-rosa-viento{
+   /* filter: brightness(0) saturate(100%)  Pasamos a negro */
+    filter: invert(100%) sepia(44%) saturate(2%) hue-rotate(349deg) brightness(111%) contrast(100%);
+}
+
+
+.contenedor-elementos-header{
+    display: flex;
+    text-align: center;
+    text-justify: distribute-all-lines;
+    width: 100vw;
+    height: 60px;
+    padding: 15px;
+
+}
+
+.header-bg-opaco{
+    background-color:rgb(0, 147, 209) ;
+    margin-top: 15px;
+}
+.header-bg-transparente{
+    background-color:#0092d178 ;
+
+}
+
+.fixed{
+    position: fixed;
+    top:0;
+    z-index: 100;
+}
+.head-logo{
+    min-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    margin: 2px;
+    border:1px solid rgb(255, 154, 0);
+    border-radius: 25px;
+    color:white;
+    flex-grow: 1;
+    
+}
+.head-viento{
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .75em;
+    color:white;
+    margin: 2px;
+    background-color:rgb(255, 154, 0);
+    border-radius: 25px;
+    flex-grow: 5;
+}
+
+
+.head-prediccion{
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .75em;
+    color:white;
+    margin: 2px;
+    background-color:rgb(255, 154, 0);
+    border-radius: 25px;
+    flex-grow: 5;
+}
